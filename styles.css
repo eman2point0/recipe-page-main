@@ -1,0 +1,104 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}   
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+
+    background-color: var(--stone-bg-color);
+    --stone-bg-color: hsl(30,54%, 90%);
+    --pinkish-bg-color: hsl(330, 100%, 98%);
+    --text-brown-color: hsl(14, 45%, 36%); 
+    --stone-light-bg-color: hsl(30,18%,87%);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem; 
+    max-width: 600px;
+    width: 100%;
+    img{
+        width: 100%;
+        border-radius: inherit;
+    }
+}
+
+hr{
+    width: 100%;
+    border-color: var(--stone-light-bg-color)
+}
+ol{
+    li{
+        margin: 0.7em 0;
+    }
+    li::marker {
+        color: var(--text-brown-color);
+        
+    }
+}
+.nutrition{
+
+    p{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        text-align: start;
+    }
+}
+.preparation {
+    background-color: var(--pinkish-bg-color);
+    padding: 20px;
+}
+
+section {
+    p {
+        font-size: 16px;
+        margin: 0.5rem 0px;
+    }
+    h1 {
+        font-family: YoungSerif;
+        font-size: 3rem;
+    }
+    h2 {
+        font-family: YoungSerif ;
+        color: var(--text-brown-color);
+        font-size: 2rem;
+    }
+    h4 {
+        
+        color: var(--text-brown-color);
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
+span.bold {
+    font-weight: bold;
+}
+
+.table-content{
+    width: 100%;
+ }
+ .value{
+    
+    color: var(--text-brown-color);
+ }
+
+
